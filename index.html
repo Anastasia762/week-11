@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100px;
+            height: 150px;
+        }
+
+        div {
+            border: 1px solid black;
+
+
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: gray;
+        }
+
+        .itemOne {}
+    </style>
+</head>
+
+<body>
+    <h1>Корзина</h1>
+    <div>
+        <div class="itemOne" id="itemOne">
+            <img
+                src="https://stockmann.ru/istk/r6Bblo0T50HF9B9ME733Q_FkFsKjH3lrwfUWOu5_7BM/rs:fill-down:688:1032:0/g:no/bG9jYWw6Ly8vdXBsb2FkL2libG9jay8wMjkvNTIxNjgwNV8xLmpwZw.webp">
+            <h3>Choupette
+                Хлопковое платье с капюшоном</h3>
+            <p>Цвет: Розовый </p>
+            <p>Размер: 104</p>
+            <p>Колличество: 1</p>
+            <p id="price1">3490 руб.</p>
+
+
+
+        </div>
+        <div class="itemTwo" id="itemTwo">
+            <img
+                src="https://stockmann.ru/istk/xrWAUkopyeMnkjtlrnQ-BJ7tlyCRtXyQp8NNZaEymoE/rs:fill-down:688:1032:0/g:no/bG9jYWw6Ly8vdXBsb2FkL2libG9jay9jZTUvNDY4MDU1Nl8xLmpwZw.webp">
+            <h3>Silver Spoon
+                Пальто из смесовой шерсти</h3>
+            <p>Цвет: Cерый </p>
+            <p>Размер: 104</p>
+            <p>Колличество: 1</p>
+            <p id="price2">9990 руб.</p>
+        </div>
+        <div class="itemThree" id="itemThree">
+            <img
+                src="https://stockmann.ru/istk/Olk0fsELW73DLcWfO2-7KSmtiZfmB1vjOOBuMth88J8/rs:fill-down:688:1032:0/g:no/bG9jYWw6Ly8vdXBsb2FkL2libG9jay8wNjYvNTI1OTIyNF8xLmpwZw.webp">
+            <h3>Reima
+                Дет. ботинки</h3>
+            <p>Цвет: Черный </p>
+            <p>Размер: 26</p>
+            <p>Колличество: 1</p>
+            <p id="price3">7790 руб.</p>
+        </div>
+        <div class="itemFour" id="itemFour">
+            <img
+                src="https://stockmann.ru/istk/t2Q0_hwFQUUci-pJBr3TN7iJAs6jhTy_U-hAjnh_p7Q/rs:fill-down:688:1032:0/g:no/bG9jYWw6Ly8vdXBsb2FkL2libG9jay8wODcvNTE3ODk1N18xLmpwZw.webp">
+            <h3>Calvin Klein Jeans
+                Джинсы на высокой талии</h3>
+            <p>Цвет: Cиний </p>
+            <p>Размер: 104</p>
+            <p>Колличество: 1</p>
+            <p id="price4">6990 руб.</p>
+
+
+        </div>
+        <button onclick="setDisable()">Использова купон на 20%</button>
+        <p>Итого: <span id=total></span></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
